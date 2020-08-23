@@ -1,13 +1,5 @@
 name: Latest blog post workflow
 on:
-schedule:
-# Runs every hour
-- cron: '0 * * * *'
-jobs:
-update-readme-with-blog:
-name: Update this repo's README with latest blog posts
-runs-on: ubuntu-latest
-on:
     # Trigger the workflow on push or pull request,
     # but only for the master branch
     push:
@@ -21,6 +13,13 @@ on:
     release:
       types: # This configuration does not affect the page_build event above
         - created
+schedule:
+# Runs every hour
+- cron: '0 * * * *'
+jobs:
+update-readme-with-blog:
+name: Update this repo's README with latest blog posts
+runs-on: ubuntu-latest
 steps:
   - uses: actions/checkout@v2
   - uses: gautamkrishnar/blog-post-workflow@master
