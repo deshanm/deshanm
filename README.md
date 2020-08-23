@@ -27,5 +27,6 @@
 <a href="https://fb.com/deshan.madurajith.1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="deshan.madurajith.1" height="30" width="30" /></a>
 <a href="https://medium.com/@deshan.m" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@deshan.m" height="30" width="30" /></a>
 </p>
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
